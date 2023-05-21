@@ -3,3 +3,4 @@ chris_scripts/
 test_notebook.ipynb
 *.gdoc
 pytrends_with_cookie.py
+*.env
