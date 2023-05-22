@@ -1,0 +1,10 @@
+db-dtypes==1.1.1
+ipykernel==6.16.0
+ipython==8.5.0
+matplotlib==3.7.1
+matplotlib-inline==0.1.6
+numpy==1.23.3
+pandas==1.5.0
+python-dotenv==0.21.0
+pytrends==4.9.2
+requests==2.28.0
