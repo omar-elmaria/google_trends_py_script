@@ -1,0 +1,13 @@
+# pytrends_data_pull_func
+# args_names is an iterable of tuples
+
+# Use concurrent.futures to call the "pytrends_data_pull_func" on the list of arguments defined above
+with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+    results = executor.map(lambda f: pytrends_data_pull_func(*f), args_names)
+
+    # Process each result in the order the keywords in the JSON file and append the result to df_interest
+    df_interest = []
+    for result in results:
+        df_interest.append(result)
+    
+    df_interest = pd.concat(df_interest, axis=1)
