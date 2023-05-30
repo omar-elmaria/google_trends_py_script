@@ -5,4 +5,4 @@ pytrends_with_cookie.py
 *.env
 chris_pytrends_delivery_photo.jpg
 test_script_video.mp4
-venv_pytrends
+venv_pytrends/
